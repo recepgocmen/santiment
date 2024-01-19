@@ -43,7 +43,9 @@ sudo git clone https://github.com/santiment/sanr-pos-network.git .
 sudo mv env.example .env
 sudo nano .env
 
-# EXTERNAL_IP=Sunucunun IP adresini giriniz - CTRL X Y ENTER ile çıkınız.
+# EXTERNAL_IP=Sunucunun IP adresini giriniz - 
+# WALLET ADRESINIZI GİRMEYİ UNUTMAYIN!
+# CTRL X Y ENTER ile çıkınız.
 sudo ln -s docker-compose-readonly.yml docker-compose.yml
 sudo docker compose up -d
 ```
